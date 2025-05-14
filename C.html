@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Bienvenue</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #2c3e50, #4ca1af);
+      background-size: 400% 400%;
+      animation: gradientShift 10s ease infinite;
+    }
+
+    @keyframes gradientShift {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    h2 {
+      color: #ffffff;
+      font-size: 3em;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      font-style: italic;
+      transform: skew(-10deg);
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+      margin: 0;
+    }
+
+    h2:hover {
+      transform: skew(-10deg) scale(1.03);
+    }
+  </style>
+</head>
+<body>
+  <h2>Bienvenue à vous</h2>
+</body>
+</html>
+
+

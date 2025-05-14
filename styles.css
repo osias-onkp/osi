@@ -1,0 +1,46 @@
+/* Listes à puces non ordonnées */
+.cercle
+{
+list-style-type: circle;
+}
+.carre
+{
+list-style-type: square;
+}
+.rien
+{
+list-style-type: none;
+}XHTML-CSS Page 47
+47
+.commence_a_zero
+{
+list-style-type: decimal-leading-zero;
+}
+.lettres_minuscules
+{
+list-style-type: lower-alpha;
+} .c
+hiffres_romains
+{
+list-style-type: upper-roman;
+}
+.lettres_grecques
+{
+list-style-type: lower-greek;
+}
+/* Quelques styles supplémentaires juste pour la présentation
+En plus ça vous fait quelques rappels ;o) */
+h2
+{
+text-indent: 20px;
+font-family: Arial, Verdana, "Times New Roman", serif;
+}
+em
+{
+background-color: yellow;
+}
+strong
+{
+color: red;
+}
+body{background-color: skyblue;}
