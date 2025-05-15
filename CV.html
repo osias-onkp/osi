@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="cv">CV</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(135deg, #000000, #434343); /* Dégradé noir */
+      color: #fff; /* Texte clair pour le contraste */
+      line-height: 1.6;
+      padding: 0;
+      margin: 0;
+    }
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      background: rgba(255, 255, 255, 0.1); /* Fond légèrement transparent pour garder l'effet dégradé visible */
+      margin: 50px auto;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 3px solid #3498db;
+      padding-bottom: 20px;
+      margin-bottom: 30px;
+    }
+    .header h1 {
+      font-size: 2.5rem;
+      color: #3498db;
+      font-weight: 700;
+    }
+    .header .contact-info {
+      font-size: 1rem;
+      color: #fff;
+      text-align: right;
+    }
+    .header .contact-info p {
+      margin: 5px 0;
+    }
+    .header .contact-info i {
+      color: #3498db;
+      margin-right: 8px;
+    }
+    .section-title {
+      font-size: 1.6rem;
+      color: #3498db;
+      margin-bottom: 15px;
+      position: relative;
+    }
+    .section-title::after {
+      content: "";
+      position: absolute;
+      width: 50px;
+      height: 3px;
+      background-color: #3498db;
+      bottom: -5px;
+      left: 0;
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+    .section p {
+      font-size: 1rem;
+      color: #ddd; /* Texte clair mais pas trop éclatant */
+      margin-bottom: 10px;
+    }
+    ul {
+      list-style: none;
+      margin-left: 20px;
+    }
+    ul li {
+      font-size: 1rem;
+      color: #ccc; /* Texte un peu plus clair pour les listes */
+      margin-bottom: 10px;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 50px;
+      font-size: 0.9rem;
+      color: #888;
+    }
+    .footer a {
+      color: #3498db;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Header section -->
+    <div class="header">
+      <div>
+        <h1>ONIKPO Isséré Osias</h1>
+        <p>Étudiant en Informatique de Gestion</p>
+      </div>
+      <div class="contact-info">
+        <p><i class="fas fa-map-marker-alt"></i> Arconville, Abomey-Calavi</p>
+        <p><i class="fas fa-phone-alt"></i> 01 60 99 5988 / 01 91 66 7888</p>
+        <p><i class="fas fa-birthday-cake"></i> 28 septembre 2006</p>
+        <p><i class="fas fa-envelope"></i> osiasonikpo7@gmail.com</p> <!-- Ajout de l'email -->
+      </div>
+    </div>
+
+    <!-- Profil Section -->
+    <div class="section">
+      <h2 class="section-title">Profil</h2>
+      <p>Étudiant en première année d'Informatique de Gestion à l'ENEAM. Passionné par les technologies numériques et motivé à développer des compétences pratiques dans le domaine de l'informatique. À la recherche d'opportunités pour apprendre et apporter de la valeur ajoutée dans un environnement professionnel.</p>
+    </div>
+
+    <!-- Formation Section -->
+    <div class="section">
+      <h2 class="section-title">Formation</h2>
+      <ul>
+        <li><strong>Depuis 2024 :</strong> Licence 1 en Informatique de Gestion – ENEAM, Cotonou</li>
+        <li><strong>2024 :</strong> Baccalauréat – Collège Catholique Saint Michel, Dassa-Zoumè</li>
+        <li><strong>2021 :</strong> BEPC – Collège Catholique Saint Michel, Dassa-Zoumè</li>
+        <li><strong>2017 :</strong> CEP – Complexe Scolaire La Synergie des Grâces</li>
+      </ul>
+    </div>
+
+    <!-- Compétences Section -->
+    <div class="section">
+      <h2 class="section-title">Compétences</h2>
+      <ul>
+        <li>Python (Notions de base)</li>
+        <li>Microsoft Word et Excel</li>
+        <li>Capacité à travailler en équipe</li>
+        <li>Organisation et gestion du temps</li>
+      </ul>
+    </div>
+
+    <!-- Langues Section -->
+    <div class="section">
+      <h2 class="section-title">Langues</h2>
+      <ul>
+        <li>Français : courant</li>
+        <li>Anglais : niveau moyen</li>
+        <li>Fon : notions de base</li>
+        <li>Idatcha : notions de base</li>
+      </ul>
+    </div>
+
+    <!-- Centres d'intérêt Section -->
+    <div class="section">
+      <h2 class="section-title">Centres d’intérêt</h2>
+      <ul>
+        <li>Football</li>
+        <li>Musique</li>
+        <li>Basketball</li>
+        <li>Informatique et nouvelles technologies</li>
+      </ul>
+    </div>
+</body>
+</html>
